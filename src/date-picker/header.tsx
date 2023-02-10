@@ -37,15 +37,15 @@ const Header: React.FC<HeaderProps> = ({
 
   return (
     <div className="sdp--header">
-      <button
-        className="sdp--square-btn sdp--square-btn__shadowed sdp--square-btn__outlined"
-        onClick={prevMonth}
-        aria-label="Go to previous month"
-        type="button"
-        disabled={disabled}
-      >
-        <LeftCaret />
-      </button>
+      {/*<button*/}
+      {/*  className="sdp--square-btn sdp--square-btn__shadowed sdp--square-btn__outlined"*/}
+      {/*  onClick={prevMonth}*/}
+      {/*  aria-label="Go to previous month"*/}
+      {/*  type="button"*/}
+      {/*  disabled={disabled}*/}
+      {/*>*/}
+      {/*  <LeftCaret />*/}
+      {/*</button>*/}
       <div className="sdp--header__main">
         <MonthPicker
           disabled={disabled}
